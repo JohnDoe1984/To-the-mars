@@ -46,6 +46,20 @@
   padding: 35px;
 }
 
+.Opportunity {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 35px;
+}
+
+.Spirit {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 35px;
+}
+
 .text {
   padding-left: 35px;
   padding-right: 35px;
@@ -77,6 +91,14 @@
     margin: 5px;
   }
   .curiosity {
+    flex-direction: column;
+    padding-bottom: -70px;
+  }
+  .Opportunity {
+    flex-direction: column;
+    padding-bottom: -70px;
+  }
+  .Spirit {
     flex-direction: column;
     padding-bottom: -70px;
   }

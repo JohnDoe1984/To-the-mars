@@ -4,13 +4,15 @@ import Opportunity from './Opportunity.jpg'
 import Curiosity from './Curiosity.jpg'
 import Spirit from './Spirit.jpg'
 
+
+
 function App() {
   return (
     <div className="App">
 
       <header className="App-header">
         <div className='headerContainer'>
-          <button class="mdc-button mdc-button--outlined">
+          <button class="mdc-button mdc-button--outlined" linkTo={Spirit}>
             <span class="mdc-button__ripple"></span>
             <span class="mdc-button__label">Curiosity</span>
           </button>
@@ -70,7 +72,7 @@ function App() {
 
 
 
-          <div className='curiosity'>
+          <div className='Opportunity'>
             <p><img src={Opportunity} className="photos" ></img></p>
             <span className='text'>About Opportunity
               <p>Opportunity, also known as MER-B (Mars Exploration Rover – B) or MER-1, and nicknamed "Oppy",
@@ -112,7 +114,7 @@ function App() {
 
 
 
-          <div className='curiosity'>
+          <div className='Spirit'>
             <p> <img src={Spirit} className="photos" ></img></p>
             <span className='text'>About Spirit
                <p>Spirit, also known as MER-A (Mars Exploration Rover – A) or MER-2, is a robotic rover on Mars, active from 2004 to 2010.
